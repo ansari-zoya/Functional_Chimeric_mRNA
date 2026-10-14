@@ -128,3 +128,12 @@ LongGF: 0.1.2 (called as 'LongGF' with capital L)
 - Genion failed: the SAM file had been deleted earlier to free disk space, and Genion's first step needs it.
 - Project paused: the laptop has 9.7 GB RAM (TYPHON's README asks for 64+ GB) and limited disk space (the WSL disk sits on a 231 GB C: drive).
 - Planned: one LongGF + Genion test on the lightest inflammatory sample (SRR28984809), then wind the project down.
+
+## Final status (stopped 10 Oct 2026)
+
+This project has been stopped and the earlier "Planned" item above (a test on SRR28984809) will not be run.
+
+- Completed: environment, references and JAFFAL setup; TYPHON LongGF run on SRR28984803 (495 chimeric read rows, results in `results/typhon_output/longgf_results/`).
+- Not completed: Genion, JAFFAL, integration and exon repair, and the other nine samples.
+- Reason: TYPHON's README asks for 64+ GB RAM and large free disk space; this laptop has 9.7 GB RAM and limited disk space.
+- Large local data (SRA files, FASTQ, BAM, references) was deleted after stopping; all inputs are public (GEO GSE267147) and TYPHON is at commit 2179e9d.
