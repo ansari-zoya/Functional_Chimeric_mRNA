@@ -121,3 +121,10 @@ Minimap2: 2.31-r1302
 SAMtools: 1.24
 Environment installed: Sun Oct  4 07:03:07 UTC 2026
 LongGF: 0.1.2 (called as 'LongGF' with capital L)
+ ## Status (10 Oct 2026)
+
+- Run so far: TYPHON (commit 2179e9d) on SRR28984803 (tissue reparative, 6,435,611 reads), WSL2 laptop with 9.7 GB RAM.
+- LongGF completed: 495 chimeric read rows (`results/typhon_output/longgf_results/Combined_LongGF_chimera_results_total.csv`). Gsdmd-Tmem106a is absent, as expected for a reparative sample.
+- Genion failed: the SAM file had been deleted earlier to free disk space, and Genion's first step needs it.
+- Project paused: the laptop has 9.7 GB RAM (TYPHON's README asks for 64+ GB) and limited disk space (the WSL disk sits on a 231 GB C: drive).
+- Planned: one LongGF + Genion test on the lightest inflammatory sample (SRR28984809), then wind the project down.
